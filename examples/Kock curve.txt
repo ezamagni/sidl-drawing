@@ -1,0 +1,25 @@
+// variables : F
+// constants : + −
+// start  : F
+// rules  : (F → F+F−F−F+F)
+
+procedure F(numiter, size)
+	if numiter = 0 then
+		move by size
+	else
+		numiter = numiter - 1
+		call F(numiter, size)	// F
+		turn left by 90			// +
+		call F(numiter, size)	// F
+		turn right by 90		// -
+		call F(numiter, size)	// F
+		turn right by 90		// -
+		call F(numiter, size)	// F
+		turn left by 90			// +
+		call F(numiter, size)	// F
+	endif
+end
+
+begin
+	call F(4, 12)	
+end

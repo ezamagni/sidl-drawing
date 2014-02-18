@@ -1,0 +1,35 @@
+function sqrt2() return 1.414213
+
+procedure halfsierpinski(size, level)
+	if level = 0 then
+		move by size
+	else
+		level = level - 1
+		call halfsierpinski(size, level)
+		turn left by 45
+		move by size * sqrt2()
+		turn left by 45
+ 		call halfsierpinski(size, level)
+ 		turn right by 90
+ 		move by size 
+ 		turn right by 90
+		call halfsierpinski(size, level)
+		turn left by 45
+ 		move by size * sqrt2() 
+ 		turn left by 45
+ 		call halfsierpinski(size, level)
+ 	endif
+end
+
+begin
+	size = 5
+	level = 4
+ 	call halfsierpinski(size, level)
+ 	turn right by 90
+ 	move by size
+ 	turn right by 90
+ 	call halfsierpinski(size, level)
+ 	turn right by 90
+ 	move by size
+ 	turn right by 90
+end

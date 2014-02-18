@@ -1,0 +1,22 @@
+procedure drawNlater(sides, size)
+	angle = 360 / sides
+	from 1 to sides
+		move forward by size
+		turn right by angle
+	loop
+end
+
+begin
+	N = 6
+	sides = 3
+	distance = 25
+	angle = 360 / N
+	
+	from 1 to N	
+		call drawNlater(sides, 60)
+		pull pen
+		turn right by angle
+		move by distance
+		drop pen
+	loop
+end

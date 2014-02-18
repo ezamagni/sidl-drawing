@@ -1,0 +1,36 @@
+// variables : A B
+// constants : + -
+// start  : A
+// rules  : (A → B-A-B), (B → A+B+A)
+// angle  : 60°
+
+
+procedure A(numiter, size)
+	if numiter = 0 then
+		move by size
+	else
+		numiter = numiter - 1
+		call B(numiter, size)	// B
+		turn right by 60		// -
+		call A(numiter, size)	// A
+		turn right by 60		// -
+		call B(numiter, size)	// B
+	endif
+end
+
+procedure B(numiter, size)
+	if numiter = 0 then
+		move by size
+	else
+		numiter = numiter - 1
+		call A(numiter, size)	// A
+		turn left by 60			// +
+		call B(numiter, size)	// B
+		turn left by 60			// +
+		call A(numiter, size)	// A
+	endif
+end
+
+begin
+	call A(4, 12)
+end

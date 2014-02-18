@@ -1,0 +1,148 @@
+<class-diagram version="1.0.10" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.MultExp" project="SiDL" 
+    file="/SiDL/src/sidl/grammar/ast/expressions/numeric/MultExp.java" binary="false">    
+    <position height="-1" width="-1" x="232" y="391"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.PlusExp" project="SiDL" 
+    file="/SiDL/src/sidl/grammar/ast/expressions/numeric/PlusExp.java" binary="false">    
+    <position height="-1" width="-1" x="352" y="391"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.DivExp" project="SiDL" 
+    file="/SiDL/src/sidl/grammar/ast/expressions/numeric/DivExp.java" binary="false">    
+    <position height="-1" width="-1" x="468" y="391"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.MinusExp" 
+    project="SiDL" file="/SiDL/src/sidl/grammar/ast/expressions/numeric/MinusExp.java" binary="false">    
+    <position height="-1" width="-1" x="590" y="391"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.VarExp" project="SiDL" 
+    file="/SiDL/src/sidl/grammar/ast/expressions/numeric/VarExp.java" binary="false">    
+    <position height="-1" width="-1" x="51" y="237"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.BinOpExp" 
+    project="SiDL" file="/SiDL/src/sidl/grammar/ast/expressions/numeric/BinOpExp.java" binary="false">    
+    <position height="-1" width="-1" x="406" y="246"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.FunctionExp" 
+    project="SiDL" file="/SiDL/src/sidl/grammar/ast/expressions/numeric/FunctionExp.java" binary="false">    
+    <position height="-1" width="-1" x="224" y="254"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.NegExp" project="SiDL" 
+    file="/SiDL/src/sidl/grammar/ast/expressions/numeric/NegExp.java" binary="false">    
+    <position height="-1" width="-1" x="556" y="237"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.ValueExp" 
+    project="SiDL" file="/SiDL/src/sidl/grammar/ast/expressions/numeric/ValueExp.java" binary="false">    
+    <position height="-1" width="-1" x="681" y="246"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="sidl.grammar.ast.expressions.numeric.NumExp" project="SiDL" 
+    file="/SiDL/src/sidl/grammar/ast/expressions/numeric/NumExp.java" binary="false">    
+    <position height="-1" width="-1" x="387" y="105"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="org.antlr.runtime.tree.CommonTree" project="SiDL" 
+    file="/Users/enrico/Documents/Workspace/SiDL/antlr-3.4.jar" binary="true">    
+    <position height="-1" width="-1" x="387" y="8"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="false" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
